@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@reduxjs/toolkit": "^2.2.1",
-    "html-react-parser": "^5.1.8",
-    "react-hook-form": "^7.51.0"
-  }
-}
