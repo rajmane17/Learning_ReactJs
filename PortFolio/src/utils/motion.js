@@ -1,3 +1,5 @@
+// All the motion work is done here
+
 export const textVariant = (delay) => {
     return {
       hidden: {

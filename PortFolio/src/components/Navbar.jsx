@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import {styles} from "../styles"
 import {navLinks} from "../Constant"
 import {logo, menu, close} from "../assets"
+import Computers from './canvas/Computers'
 
 const Navbar = () => {
 
@@ -46,6 +47,22 @@ const Navbar = () => {
       </div>
 
       <Computers />
+      <div>
+        <a href="#about">
+          <div>
+            <motion.div
+            animate={{
+              y:[0,24,0]
+            }}
+            transition = {{
+              duration:1.5,
+              repeat:Infinity,
+              repeatType: "loop"
+            }}
+            />
+          </div>
+        </a>
+      </div>
     </nav>
   )
 }
