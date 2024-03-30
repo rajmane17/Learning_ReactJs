@@ -40,6 +40,12 @@ const Navbar = () => {
             })}
           </ul>
       </div>
+
+      <div>
+        {/* a navbar for small devices will come over here */}
+      </div>
+
+      <Computers />
     </nav>
   )
 }
